@@ -1,0 +1,17 @@
+public class doWhile {
+    public static void  myCar(String model,int speed) {
+        System.out.println(model + " mph " +speed);
+    }
+    public static void main(String[] args) 
+    {
+        final int[] speed = { 60, 90, 100, 70};
+         final String[] name = { "BMW", "Porsche", "Lamborghini", "Mercede-Benz"};
+         int i =0;
+         while (i < name.length) 
+         {
+             myCar(name[i], speed[i]);
+             i++;
+         }
+        
+    }
+}
